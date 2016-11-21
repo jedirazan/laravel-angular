@@ -19,7 +19,7 @@ elixir(mix => {
     mix.sass('app.scss')
     // .webpack('app.js')
     .copy('node_modules/@angular', 'public/@angular')
-    .copy('node_modules/anular2-in-memory-web-api', 'public/anular2-in-memory-web-api')
+    .copy('node_modules/angular-in-memory-web-api', 'public/angular-in-memory-web-api')
     .copy('node_modules/core-js', 'public/core-js')
     .copy('node_modules/reflect-metadata', 'public/reflect-metadata')
     .copy('node_modules/systemjs', 'public/systemjs')
