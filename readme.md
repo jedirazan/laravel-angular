@@ -4,21 +4,27 @@ This is a quickstart for Laravel 5.3 and Angular 2.2 setup.
 
 To begin, clone this repo to your local machine.
 
-Install dependencies.
-1. In your terminal, run command >> `npm install`
-2. Go to `/node_modules/elixir-typescript/index.js`, find and comment this line
-   `// .pipe($.concat(paths.output.name))`
+### Install dependencies
 
-Run app
-1. In your terminal, run command >> `gulp`
-   This will compile all your assets, including Angular part
-2. Then, run >> `php artisan serve`
+In your terminal, run command:  
+`npm install`
 
+Go to `/node_modules/elixir-typescript/index.js`, find and comment this line:  
+`// .pipe($.concat(paths.output.name))`
 
-### Laravel Documentation
+### Run app
+
+In your terminal, run command:  
+`gulp`  
+This will compile all your assets, including Angular part.  
+
+Then, run command:  
+`php artisan serve`
+
+#### Laravel Documentation
 
 [Laravel website](http://laravel.com/docs).
 
-### Angular Documentation
+#### Angular Documentation
 
 [Angular website](https://angular.io/docs/ts/latest).
