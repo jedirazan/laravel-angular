@@ -28,6 +28,7 @@ elixir(mix => {
 
     .typescript(
         [
+        '1st.spec.ts',
             'app.component.ts',
             'app.module.ts',
             'main.ts'
